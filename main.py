@@ -23,12 +23,15 @@ def show_main_menu(active_user):
     print("2. [Test] Purchase all packages in family code")
     print("-------------------------------------------------------")
     print("List Bot Auto Looping:")
-    print("3. Bonus Kouta Malam 60GB")
-    print("4. Addon Akrab (no.38)")
-    print("5. Kuota Pelanggan Baru 10GB + 30H (Accumulate) (no.1)")
-    print("6. Bonus Kuota Utama 45GB")
-    print("7. Akrab 2kb (no.5)")
-    print("8. Mode Custom (family code dan nomer order)")
+    print("3. Bebas Puas + 30H Mastif")
+    print("4. Bonus Kuota Utama 45GB")
+    print("5. Bonus Kouta Malam 60GB")
+    print("6. Bonus Youtube+Tiktok 42GB")
+    print("7. Xtra Combo Flex S")
+    print("8. Bonus Flex Main Quota 25GB")
+    print("9. Bonus Flex Youtube Quota 14GB")
+    print("10. Bonus Flex Night Quota 60GB")
+    print("11. Bonus Flex TikTok 8GB")
     print("99. Tutup aplikasi")
     print("-------------------------------------------------------")
 
@@ -61,8 +64,8 @@ def main():
                 delay = int(input("Enter delay in seconds: "))
                 while True:
                     if not purchase_loop(
-                        family_code='5412b964-474e-42d3-9c86-f5692da627db',
-                        order=34,
+                        family_code='0069ab97-3e54-41ef-87ea-807621d1922c',
+                        order=1,
                         use_decoy=True,
                         delay=delay,
                         pause_on_success=False
@@ -72,19 +75,19 @@ def main():
                 delay = int(input("Enter delay in seconds: "))
                 while True:
                     if not purchase_loop(
-                        family_code='a677d649-3c5a-46c2-a043-cb69ac841208',
-                        order=38,
+                        family_code='5412b964-474e-42d3-9c86-f5692da627db',
+                        order=64,
                         use_decoy=True,
                         delay=delay,
-                        pause_on_success=True
+                        pause_on_success=False
                     ):
                         break
             elif choice == "5":
                 delay = int(input("Enter delay in seconds: "))
                 while True:
                     if not purchase_loop(
-                        family_code='0069ab97-3e54-41ef-87ea-807621d1922c',
-                        order=1,
+                        family_code='5412b964-474e-42d3-9c86-f5692da627db',
+                        order=34,
                         use_decoy=True,
                         delay=delay,
                         pause_on_success=False
@@ -105,26 +108,57 @@ def main():
                 delay = int(input("Enter delay in seconds: "))
                 while True:
                     if not purchase_loop(
-                        family_code='4889cc43-55c9-47dd-8f7e-d3ac9fae6022',
-                        order=5,
+                        family_code='4a1acab0-da54-462c-84b1-25fd0efa9318',
+                        order=1,
                         use_decoy=True,
                         delay=delay,
-                        pause_on_success=True
+                        pause_on_success=False
                     ):
                         break
-            elif choice == "8":
-                family_code = input("Enter family code: ")
-                order = int(input("Enter order number: "))
+           elif choice == "8":
                 delay = int(input("Enter delay in seconds: "))
                 while True:
                     if not purchase_loop(
-                        family_code=family_code,
-                        order=order,
+                        family_code='1b42d4f6-a76e-4986-aa5c-e2979da952f4',
+                        order=21,
                         use_decoy=True,
                         delay=delay,
-                        pause_on_success=True
+                        pause_on_success=False
                     ):
-                        break
+                        break  
+            elif choice == "9":
+                delay = int(input("Enter delay in seconds: "))
+                while True:
+                    if not purchase_loop(
+                        family_code='1b42d4f6-a76e-4986-aa5c-e2979da952f4',
+                        order=1,
+                        use_decoy=True,
+                        delay=delay,
+                        pause_on_success=False
+                    ):
+                        break        
+            elif choice == "10":
+                delay = int(input("Enter delay in seconds: "))
+                while True:
+                    if not purchase_loop(
+                        family_code='1b42d4f6-a76e-4986-aa5c-e2979da952f4',
+                        order=110,
+                        use_decoy=True,
+                        delay=delay,
+                        pause_on_success=False
+                    ):
+                        break        
+           elif choice == "11":
+                delay = int(input("Enter delay in seconds: "))
+                while True:
+                    if not purchase_loop(
+                        family_code='1b42d4f6-a76e-4986-aa5c-e2979da952f4',
+                        order=61,
+                        use_decoy=True,
+                        delay=delay,
+                        pause_on_success=False
+                    ):
+                        break             
             elif choice == "99":
                 print("Exiting the application.")
                 sys.exit(0)
