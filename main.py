@@ -65,7 +65,7 @@ def main():
                         order=34,
                         use_decoy=True,
                         delay=delay,
-                        pause_on_success=True
+                        pause_on_success=False
                     ):
                         break
             elif choice == "4":
@@ -87,7 +87,7 @@ def main():
                         order=1,
                         use_decoy=True,
                         delay=delay,
-                        pause_on_success=True
+                        pause_on_success=False
                     ):
                         break
             elif choice == "6":
@@ -98,7 +98,7 @@ def main():
                         order=64,
                         use_decoy=True,
                         delay=delay,
-                        pause_on_success=True
+                        pause_on_success=False
                     ):
                         break
             elif choice == "7":
