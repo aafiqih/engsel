@@ -148,7 +148,7 @@ def main():
                         pause_on_success=False
                     ):
                         break        
-           elif choice == "11":
+            elif choice == "11":
                 delay = int(input("Enter delay in seconds: "))
                 while True:
                     if not purchase_loop(
