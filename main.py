@@ -65,7 +65,7 @@ def main():
                 while True:
                     if not purchase_loop(
                         family_code='0069ab97-3e54-41ef-87ea-807621d1922c',
-                        order=1,
+                        order=2,
                         use_decoy=True,
                         delay=delay,
                         pause_on_success=False
